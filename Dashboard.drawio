@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" modified="2021-09-15T13:18:04.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="bZMdA2_oNcUvW1VVKwGt" version="14.9.2" type="github">
+  <diagram id="snPLcn7mBSG5jstqlisx" name="Page-1">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-1" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Page Dashboard&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299" y="50" width="229" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-2" value="Utilisateur élève ou professeur connecté" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="388" y="120" width="51" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-8" value="Mon tableau de bord est affiché,&lt;br&gt;il affiche une section Messagerie, &lt;br&gt;qui affiche le nombre de nouveaux messages &lt;br&gt;si il y en a, une section To-do-list qui affiche &lt;br&gt;celle-ci, et une section Calendrier qui &lt;br&gt;affiche mes prochains rendez-vous &lt;br&gt;ou évènements" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="290" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="m5st2zb5ED3u26RFqQ7u-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="380" as="sourcePoint" />
+            <mxPoint x="414" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="490" as="sourcePoint" />
+            <mxPoint x="414" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m5st2zb5ED3u26RFqQ7u-11" target="m5st2zb5ED3u26RFqQ7u-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-11" value="Je clique sur la section Messagerie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-12" value="J&#39;accède à la page Messagerie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-14" value="Oui" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="510" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-15" value="Je reste sur la page Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="m5st2zb5ED3u26RFqQ7u-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5st2zb5ED3u26RFqQ7u-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-17" value="Je clique sur la section To-do-list" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-18" value="J&#39;accède à la page Gestionnaire des tâches" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-20" value="Oui" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="660" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-21" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="m5st2zb5ED3u26RFqQ7u-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="790" as="sourcePoint" />
+            <mxPoint x="440" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5st2zb5ED3u26RFqQ7u-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-22" value="Je clique sur la section Calendrier" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-23" value="J&#39;accède à la page Calendrier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-24" value="Oui" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="810" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-28" value="" style="endArrow=classic;html=1;exitX=1.008;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="m5st2zb5ED3u26RFqQ7u-11" target="m5st2zb5ED3u26RFqQ7u-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="440" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m5st2zb5ED3u26RFqQ7u-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="600" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-30" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="m5st2zb5ED3u26RFqQ7u-22" target="m5st2zb5ED3u26RFqQ7u-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="660" as="sourcePoint" />
+            <mxPoint x="600" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-31" value="Non" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="488" y="760" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-32" value="Non" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="488" y="585" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m5st2zb5ED3u26RFqQ7u-33" value="Non" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="509" y="660" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
