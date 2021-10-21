@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T15:35:20.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="TZsKsHtLAq-inzIBgTGF" version="15.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-21T16:35:14.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="3YYs882s8cBzn2HtaF3K" version="15.5.5" type="github" pages="5">
   <diagram id="1AHfdOlfDi8fP-BxkIWJ" name="Connexion">
     <mxGraphModel dx="914" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -589,6 +589,123 @@
       <root>
         <mxCell id="dBMuuptp5Tb5qjiRUcax-0" />
         <mxCell id="dBMuuptp5Tb5qjiRUcax-1" parent="dBMuuptp5Tb5qjiRUcax-0" />
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-0" value="&lt;font style=&quot;font-size: 23px&quot;&gt;Page Gestion des Tâches&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="264" y="70" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-1" value="Utilisateur étudiant ou professeur connecté" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="195" y="451.78" width="51" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-7" target="RfjJohTM5tE8vwLAcwnf-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="155" y="851.78" as="sourcePoint" />
+            <mxPoint x="275" y="696.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-3" value="Une modale s&#39;ouvre et je remplis les champs &quot;titre&quot; et &quot;description&quot; avant de cliquer sur &quot;Ajout tâche&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="515" y="661.78" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-5" target="RfjJohTM5tE8vwLAcwnf-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="901.78" as="sourcePoint" />
+            <mxPoint x="185" y="761.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-5" value="Je veux modifier une tâche personnelle de ma liste de tâches à faire, ou en tant que professeur modifier une tâche précedemment ajoutée à l&#39;un de mes élèves ??" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="20" y="806.78" width="203" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=none;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-7" target="RfjJohTM5tE8vwLAcwnf-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="122.5" y="711.78" as="sourcePoint" />
+            <mxPoint x="122.5" y="571.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-7" value="Je veux ajouter une tâche personnelle à ma liste de tâches à faire ?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="38" y="641.78" width="167" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-8" value="Je&lt;br&gt;clique sur&amp;nbsp;&lt;br&gt;le bouton &quot;Ajouter&lt;br&gt;une tâche personnelle&quot;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="285" y="621.78" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-8" target="RfjJohTM5tE8vwLAcwnf-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="721.78" as="sourcePoint" />
+            <mxPoint x="512" y="721.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-5" target="RfjJohTM5tE8vwLAcwnf-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="189.038" y="875.78" as="sourcePoint" />
+            <mxPoint x="275" y="856.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-11" value="Une modale contenant les informations de ma tâche apparaît, je modifie ce que je désire et je clique sur &quot;Valider&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="525" y="819.28" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-12" value="Je&lt;br&gt;clique sur&amp;nbsp;la tâche correspondante&lt;br&gt;&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="300" y="811.78" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-12" target="RfjJohTM5tE8vwLAcwnf-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="881.78" as="sourcePoint" />
+            <mxPoint x="512" y="881.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" target="RfjJohTM5tE8vwLAcwnf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121.5" y="996.78" as="sourcePoint" />
+            <mxPoint x="121.5" y="941.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-19" target="RfjJohTM5tE8vwLAcwnf-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="208" y="1046.78" as="sourcePoint" />
+            <mxPoint x="275" y="1046.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-16" value="Une modale apparaît me demandant si je souhaite bien supprimer la tâche. Je clique sur &quot;Valider&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="525" y="1036.78" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-17" value="Je&lt;br&gt;clique sur&amp;nbsp;&lt;br&gt;la croix rouge sur &lt;br&gt;la droite de la tâche correspondante&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="295" y="996.78" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-17" target="RfjJohTM5tE8vwLAcwnf-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="1071.78" as="sourcePoint" />
+            <mxPoint x="512" y="1071.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-19" value="Je veux supprimer une tâche personnelle de ma liste de tâches à faire, ou en tant que professeur supprimer une tâche précedemment ajoutée à l&#39;un de mes élèves ??" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="20" y="1006.78" width="203" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-20" value="Utilisateur Professeur connecté" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="197" y="120" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-24" target="RfjJohTM5tE8vwLAcwnf-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="157" y="553.5699999999999" as="sourcePoint" />
+            <mxPoint x="277" y="398.56999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-22" value="Une modale s&#39;ouvre et je remplis les champs &quot;titre&quot; et &quot;description&quot;, sélectionne l&#39;élève désiré dans la liste déroulante, avant de cliquer sur &quot;Ajout tâche&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="537" y="324.99" width="220" height="103.57" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=none;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-24" target="RfjJohTM5tE8vwLAcwnf-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="124.5" y="413.56999999999994" as="sourcePoint" />
+            <mxPoint x="276.5" y="209.9985714285715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-24" value="Je veux ajouter une tâche à faire à l&#39;un de mes élèves ?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="40" y="343.56999999999994" width="167" height="66.43" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-25" value="Je&lt;br&gt;clique sur&amp;nbsp;&lt;br&gt;le bouton &quot;Ajouter&lt;br&gt;une tâche à un élève&quot;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dBMuuptp5Tb5qjiRUcax-1">
+          <mxGeometry x="287" y="301.78" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RfjJohTM5tE8vwLAcwnf-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dBMuuptp5Tb5qjiRUcax-1" source="RfjJohTM5tE8vwLAcwnf-25" target="RfjJohTM5tE8vwLAcwnf-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="437" y="423.56999999999994" as="sourcePoint" />
+            <mxPoint x="514" y="423.56999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
